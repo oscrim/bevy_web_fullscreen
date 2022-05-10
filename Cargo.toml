@@ -8,9 +8,9 @@ edition = "2018"
 
 [dependencies]
 gloo-events = "0.1.1"
-web-sys = { version = "0.3.45", features = ["Element", "Document", "Window"] }
+web-sys = { version = "0.3.55", features = ["Element", "Document", "Window"] }
 futures = "0.3"
-bevy = { version = "0.6", default-features=false }
+bevy = { version = "0.7", default-features=false }
 
 #[dependencies.bevy]
 #git = "https://github.com/oscrim/bevy.git"
